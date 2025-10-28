@@ -1,17 +1,17 @@
 ragに必要なjson作成
 
 ```
-run_pageindex.py --pdf_path <pdfのパス>
+python PageIndex\run_pageindex.py --pdf_path <pdfのパス>
 ```
 rag実行(現在質問はxlsxの特定のセルを繰り返し読む形)
 
 ```
-python rag.py  
+python PageIndex\pageindex\rag.py 
 ```
 
 評価
 
 ```
-python evaluate.py
-python accuracy.py                     
+python PageIndex\pageindex\evaluate.py
+python PageIndex\pageindex\accuracy.py                   
 ```
