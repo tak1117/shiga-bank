@@ -1,0 +1,6 @@
+*.pdf
+*.md
+*.json
+shiga-venv
+.env
+*.bak
